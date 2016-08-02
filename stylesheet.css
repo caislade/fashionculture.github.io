@@ -1,0 +1,40 @@
+body {
+    font-size: x-large 
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+li{ 
+     font-family: 'Lobster', cursive; 
+ }
+
+ul{ font-family: 'Lobster', cursive; 
+}
+
+p { font-family: 'Lobster', cursive; 
+}
+
+ .nav { 
+       list-style:none;
+ } 
+ .nav li { 
+     float: right; 
+ }
+ .nav > li a {
+     display: block;
+     padding:12px 18px;
+     text-decoration: none;
+     color:#000;
+     border-bottom: 1px solid #eee;
+     transition: all ease .5s;
+ }
+ .nav:hover > li a {
+     opacity: .5;
+     transition: all ease .5s;
+ }
+ .nav > li:hover a {
+     opacity: 1;
+     color:#FF1493 ;
+     border-color:#FF1493 ;
+ }
